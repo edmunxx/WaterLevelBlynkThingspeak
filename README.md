@@ -6,4 +6,4 @@ Komponen alat:
 - Sensor HC-SR04
 - Kabel Jumper
 
-Video: 
+Video: https://youtu.be/X8clJY1-iC4
