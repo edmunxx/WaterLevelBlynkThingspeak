@@ -5,12 +5,12 @@
 #define TRIGGERPIN D1 //pin Trig pada HC-SR04 dihubungkan ke pin D1 NodeMCU
 #define ECHOPIN    D2 //pin Echo pada HC-SR04 dihubungkan ke pin D2 NodeMCU
 
-unsigned long ch_no = 1462722; //channel no di Thingspeak
-const char * write_api = "EUNN33DB9SA2AG3D"; //write api key di Thingspeak
+unsigned long ch_no = ....; //channel no di Thingspeak - insert channel no in thingspeak
+const char * write_api = "insert write api key in thingspeak"; //write api key di Thingspeak
 
-char auth[] = "LgiRd4gvQT5I7xq5RLNn8UviIsHv748o"; //token pada Blynk
-char ssid[] = "ZTEF660"; //nama wifi
-char pass[] = "qwerty123";//password wifi
+char auth[] = "insert token blynk"; //token pada Blynk
+char ssid[] = "insert wifi name"; //nama wifi
+char pass[] = "insert wifi password";//password wifi
 
 unsigned long startMillis;
 unsigned long currentMillis;
